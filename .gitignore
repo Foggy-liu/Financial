@@ -8,23 +8,10 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# 数据文件（大文件）
+# 数据文件
 *.csv
+*.json
+data/
 *.npz
 *.pkl
 *.png
-data/
-
-# 模型文件
-XGBoost调参/
-XGboot/
-bayes/
-logistic/
-logistic_80/
-randomforest/
-smot/
-test/
-
-# 临时文件
-*.ipynb
-result.py
